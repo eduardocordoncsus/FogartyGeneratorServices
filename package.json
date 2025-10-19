@@ -1,29 +1,18 @@
 {
-  "name": "fogartygeneratorservices",
+  "name": "190",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "CRUD_mongoose.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eduardocordoncsus/FogartyGeneratorServices.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node CRUD_mongoose.js",
+    "dev": "nodemon CRUD_mongoose.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eduardocordoncsus/FogartyGeneratorServices/issues"
-  },
-  "homepage": "https://github.com/eduardocordoncsus/FogartyGeneratorServices#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "mongodb": "^6.20.0",
-    "mongoose": "^8.19.1"
+    "express": "^5.1.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
